@@ -41,6 +41,7 @@ class ContMdi(QtWidgets.QWidget):
 
     def subWindow(self):
         self.ui.mdiArea.setViewMode(0)
+        self.ui.mdiArea.tileSubWindows()
 
     def tabView(self):
         self.ui.mdiArea.setViewMode(1)
